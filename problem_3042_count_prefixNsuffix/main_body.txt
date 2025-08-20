@@ -1,0 +1,22 @@
+CountPrefixNSuffix obj = new CountPrefixNSuffix();
+
+       // Sample Arguements
+       //["a","aba","ababa","aa"]
+       //["pa","papa","ma","mama"]
+       //["abab","ab"]
+
+       System.out.println(
+
+            obj.countPrefixNSuffix(
+
+                new String[]{
+
+                    // Add Test Argument here
+                    "a","aba","ababa","aa"
+
+
+                }
+
+            )
+
+       );

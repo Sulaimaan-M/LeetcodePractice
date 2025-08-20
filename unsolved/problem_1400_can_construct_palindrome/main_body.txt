@@ -1,0 +1,17 @@
+CanConstruct obj = new CanConstruct();
+
+        // Sample Arguments
+
+        //"annabelle", 2
+
+        //"leetcode", 3
+
+        // "true", 4
+        
+        System.out.println(
+            obj.canConstruct(
+
+            // Add Test Arguments below
+                "annabelle", 2
+            )
+        );
