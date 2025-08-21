@@ -1,4 +1,4 @@
-package leetcode.unsolved.problem_1400_can_construct_palindrome;
+package leetcode.problem_1400_can_construct_palindrome;
 
 import java.util.HashSet;
 

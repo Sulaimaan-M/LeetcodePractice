@@ -1,6 +1,6 @@
 package leetcode;
 
-import leetcode.unsolved.problem_1400_can_construct_palindrome.CanConstruct;
+import leetcode.problem_1400_can_construct_palindrome.CanConstruct;
 
 public class Main {
 
