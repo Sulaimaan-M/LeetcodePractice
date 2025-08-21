@@ -1,4 +1,4 @@
-package leetcode.unsolved.problem_2966_divide_array;
+package leetcode.unsolved_or_solving.problem_2966_divide_array;
 
 public class DivideArray {
 
