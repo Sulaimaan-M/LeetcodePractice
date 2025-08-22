@@ -1,28 +1,30 @@
 package leetcode;
 
-import leetcode.problem_1400_can_construct_palindrome.CanConstruct;
+import leetcode.unsolved_or_solving.problem_1052_grumpy_owner.MaximumCustomers;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        CanConstruct obj = new CanConstruct();
-
-        // Sample Arguments
-
-        //"annabelle", 2
-
-        //"leetcode", 3
-
-        // "true", 4
-        
         System.out.println(
-            obj.canConstruct(
 
-            // Add Test Arguments below
-                "true", 4
+            /* Sample Arguments
+            
+            [1,0,1,2,1,1,7,5], [0,1,0,1,0,1,0,1], 3
 
-            )
+            [1], [0], 1
+
+            */ 
+
+            (new MaximumCustomers()).maxSatisfied(
+
+                // Test Argumemts Here
+
+                new int[]{4,10,10},
+                new int[]{1,1,0}, 
+                2)
+
+
         );
        
     }
