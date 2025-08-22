@@ -1,6 +1,6 @@
 package leetcode;
 
-import leetcode.unsolved_or_solving.problem_1052_grumpy_owner.MaximumCustomers;
+import leetcode.problem_1052_grumpy_owner.MaximumCustomers;
 
 public class Main {
 
