@@ -1,0 +1,14 @@
+// Sample Arguments here
+
+        //[17,18,5,4,6,1]
+        //[400]
+
+        ReplaceWithRigthHighest obj = new ReplaceWithRigthHighest();
+
+        System.out.println(
+
+        //Test Arguments here
+
+            obj.replaceWithRigthHighest(new int[]{17,18,5,4,6,1})
+
+        );

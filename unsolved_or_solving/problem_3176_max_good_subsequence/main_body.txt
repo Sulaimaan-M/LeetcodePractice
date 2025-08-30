@@ -1,0 +1,14 @@
+ // Sample parameters
+
+        //[1,2,1,1,3], 2
+        //[1,2,3,4,5,1], 0
+       
+        MaxGoodSubsequence obj = new MaxGoodSubsequence();
+
+        System.out.println(
+
+        // Test Parameters Here
+
+            obj.maxGoodSubsequence(new int[]{1,2,3,4,5,1}, 0)
+
+        );
