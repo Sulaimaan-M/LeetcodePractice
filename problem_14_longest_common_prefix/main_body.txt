@@ -1,0 +1,13 @@
+ LongestCommonPrefix obj = new LongestCommonPrefix();
+
+        // Sample Arguments
+        
+        //["flower","flow","flight"]
+
+        //["dog","racecar","car"]
+
+        System.out.println(
+
+            obj.longestCommonPrefix(new String[] {"flower","flow","flight"})
+
+        );

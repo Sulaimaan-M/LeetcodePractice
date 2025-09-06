@@ -1,4 +1,4 @@
-package leetcode.unsolved_or_solving.problem_36_validate_sodoku;
+package leetcode.problem_36_validate_sodoku;
 
 import java.util.HashSet;
 
