@@ -1,0 +1,15 @@
+// Sample Arguments
+
+        //[2,3,-5]
+
+        //[3,2,-3,-4]
+
+        AntOnTheBoundary obj = new AntOnTheBoundary();
+
+        System.out.println(obj.antOnTheBoundary(new int[] {
+
+            // Test Arguments here
+
+            3,2,-5
+
+        }));
