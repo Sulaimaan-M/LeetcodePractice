@@ -1,0 +1,26 @@
+
+        ArrayPartition obj = new ArrayPartition();
+
+        // Sample Test cases
+
+        //[1,4,3,2]
+
+        //[6,2,6,5,1,2]
+
+        System.out.println(
+
+        obj.arrayPartition(
+
+        // Test Argument here
+
+            new int[]{
+
+                6,2,6,5,1,2
+
+            }
+
+        )
+
+        );
+
+    }
