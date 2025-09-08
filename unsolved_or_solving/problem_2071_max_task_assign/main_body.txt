@@ -1,0 +1,26 @@
+
+    // Sample Test Parameters
+
+    //[3,2,1], [0,3,3], 1, 1
+
+    //[5,4], [0,0,0], 1, 5
+
+    //
+
+    public static void main(String[] args) {
+
+        MaxTaskAssign obj = new MaxTaskAssign();
+
+        System.out.println(
+
+        // Test Parmeteres here
+
+        obj.maxTaskAssign(
+            new int[] {3,2,1}, // tasks
+            new int[] {0,3,3}, // workers
+            1,
+            1)
+
+        );
+
+    }
