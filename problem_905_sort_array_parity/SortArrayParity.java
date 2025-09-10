@@ -1,4 +1,4 @@
-package leetcode.unsolved_or_solving.problem_905_sort_array_parity;
+package leetcode.problem_905_sort_array_parity;
 
 public class SortArrayParity {
 
