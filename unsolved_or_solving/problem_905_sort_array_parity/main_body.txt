@@ -1,0 +1,23 @@
+//Sample Test Arguments
+
+        //[3,1,2,4]
+
+        //[0]
+
+        SortArrayParity obj = new SortArrayParity();
+
+        System.out.println(
+
+        Arrays.toString(
+
+        // Test Arguments here
+
+            obj.sortArrayParity(
+
+                new int[] {3,1,2,4}
+
+            )
+
+        )
+
+        );
