@@ -1,0 +1,20 @@
+
+        // Sample Test Arguments
+
+        // 5
+
+        // 10
+
+        SquareTriples obj = new SquareTriples();
+
+        System.out.println(
+
+            // Test Arguments here
+
+            obj.squareTriples(5)
+
+        );
+
+        //System.out.println(Math.pow(5.0, 2));
+
+    
