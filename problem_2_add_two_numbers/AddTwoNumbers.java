@@ -51,8 +51,11 @@ public class AddTwoNumbers {
             }
 
             currNode.val = sum;
-            currNode.next = new ListNode();
-            currNode = currNode.next;
+
+            if(l1.next != null || l2.next != null){
+                currNode.next = new ListNode();
+                currNode = currNode.next;
+            }
 
             l1 = l1.next;
             l2 = l2.next;
@@ -62,7 +65,7 @@ public class AddTwoNumbers {
 
         if(remainder != 0){
 
-            currNode.val = remainder;
+            currNode.next = new ListNode(remainder);
 
         }
 
