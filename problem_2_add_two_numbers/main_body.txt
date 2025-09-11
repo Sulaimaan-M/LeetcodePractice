@@ -1,0 +1,55 @@
+
+        // Sample test arguments
+
+        //[2,4,3], [5,6,4]
+
+        //[0], [0]
+
+        //[9,9,9,9,9,9,9], [9,9,9,9]
+
+        AddTwoNumbers obj = new AddTwoNumbers();
+
+        ListNode l1 = new ListNode(2);
+        l1.next = new ListNode(4);
+        l1.next.next = new ListNode(3);
+
+        ListNode l2 = new ListNode(5);
+        l2.next = new ListNode(6);
+        l2.next.next = new ListNode(4);
+
+        ListNode lx = new ListNode(9);
+        lx.next = new ListNode(9);
+        lx.next.next = new ListNode(9);
+        lx.next.next.next = new ListNode(9);
+        lx.next.next.next.next = new ListNode(9);
+        lx.next.next.next.next.next = new ListNode(9);
+        lx.next.next.next.next.next.next = new ListNode(9);
+
+        ListNode ly = new ListNode(9);
+        ly.next = new ListNode(9);
+        ly.next.next = new ListNode(9);
+        ly.next.next.next = new ListNode(9);
+
+
+
+        ListNode res = obj.addTwoNumbers(l1, l2);
+
+        while (res != null) {
+
+            System.out.print(res.val+", ");
+
+            res = res.next;
+
+        }
+
+        System.out.println("\n========================================");
+
+        res = obj.addTwoNumbers(lx, ly);
+
+        while (res != null) {
+
+            int val = res.val;
+            System.out.print(val+", ");
+            res = res.next;
+
+        }
