@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 from typing import Optional
-from tree_node import ListNode
+from linked_list import ListNode
 
 def rotate(reglist : list[int], k : int) -> ListNode:
 
