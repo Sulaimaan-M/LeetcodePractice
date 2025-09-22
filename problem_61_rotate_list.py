@@ -4,7 +4,7 @@
 #         self.val = val
 #         self.next = next
 from typing import Optional
-from linked_list import ListNode
+from datastructures_impl.linked_list import ListNode
 
 def rotate(reglist : list[int], k : int) -> ListNode:
 

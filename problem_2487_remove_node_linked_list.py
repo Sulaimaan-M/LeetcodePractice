@@ -1,4 +1,4 @@
-from linked_list import ListNode
+from datastructures_impl.linked_list import ListNode
 from typing import Optional
 import collections
 

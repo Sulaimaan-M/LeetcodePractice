@@ -1,6 +1,6 @@
 import collections
 from typing import Optional
-from tree_node import TreeNode
+from datastructures_impl.tree_node import TreeNode
 
 def levelOrder(root: Optional[TreeNode]) -> list[list[int]]:
 
