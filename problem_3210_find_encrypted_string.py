@@ -8,8 +8,7 @@ def getEncryptedString(self, s: str, k: int) -> str:
     res = ""
 
     if k>= n:
-        remainder = k%n
-        k = remainder
+        k = k%n
 
     for i in range(n):
 
