@@ -6,9 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Current File",
+            "name": "Leetcode",
             "request": "launch",
-            "mainClass": "${file}"
-        }
+            "mainClass": "leetcode.Main"
+        },
+        
     ]
 }
